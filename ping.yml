@@ -1,0 +1,7 @@
+---
+- hosts: dbservers
+  remote_user: anish
+  tasks:
+    - name: test connection
+      ping:
+      remote_user: anish
